@@ -757,23 +757,22 @@
 </footer>
 
 <!-- DOWNLOAD BUTTON -->
-<div id="dl-btn" title="Download this itinerary" onclick="downloadPage()" style="
+<a href="https://drive.google.com/file/d/1ZZwpm1lK3KUeHyrGTWgF_FsAz95xpkxg/view?usp=sharing" target="_blank" rel="noopener" title="Download PDF" style="
   position:fixed; bottom:28px; right:28px; z-index:999;
   background:linear-gradient(135deg,#C45C7C,#F2A7BE);
   color:#fff; border-radius:100px; padding:13px 22px;
   display:flex; align-items:center; gap:9px;
   font-family:'Jost',sans-serif; font-size:13px; font-weight:600;
-  cursor:pointer; letter-spacing:0.5px;
+  text-decoration:none; letter-spacing:0.5px;
   box-shadow:0 4px 20px rgba(196,92,124,0.35);
   transition:transform 0.2s, box-shadow 0.2s;
 " onmouseenter="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 28px rgba(196,92,124,0.45)'"
-   onmouseleave="this.style.transform='translateY(0)';this.style.boxShadow='0 4px 20px rgba(196,92,124,0.35)'"
-   onclick="window.open('https://drive.google.com/file/d/1ZZwpm1lK3KUeHyrGTWgF_FsAz95xpkxg/view','_blank')">
+   onmouseleave="this.style.transform='translateY(0)';this.style.boxShadow='0 4px 20px rgba(196,92,124,0.35)'">
   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M8 1v9M4.5 6.5L8 10l3.5-3.5M2 12h12" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>
   Download PDF
-</div>
+</a>
 
 <script>
   function tc(el) {
